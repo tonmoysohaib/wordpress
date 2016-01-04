@@ -28,10 +28,10 @@ function form($instance) {
 // Check values
 if( $instance) {
 $title = esc_attr($instance['title']);
-// $textarea = $instance['textarea'];
+ // $textarea = $instance['textarea'];
 } else {
-$title = '';
-// $textarea = '';
+ $title = '';
+ // $textarea = '';
  }
 
 ?>
